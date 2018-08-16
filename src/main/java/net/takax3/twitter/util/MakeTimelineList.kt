@@ -79,10 +79,10 @@ object MakeTimelineList {
 		twitter!!.setOAuthConsumer(consumerKey, consumerSecret)
 		twitter!!.oAuthAccessToken = accessToken
 		
-		val list = twitter!!.createUserList("TimeLine-" + SimpleDateFormat("yyyyMMddHHmmss").format(Date()), false,
+		val list = twitter!!.createUserList("TimeLine-${SimpleDateFormat("yyyyMMddHHmmss").format(Date())}", false,
 				"UserStream死亡に伴い、非公式アプリでのTL取得回数が15回/15分なのに対してList取得回数が900回/15分なのを生かしいつでもTLを見れるようにするList(Botでの自動生成)")
 		println("Listを生成しました。")
-		println("List名は " + list.name + " です。")
+		println("List名は ${list.name} です。")
 		twitter!!.createUserListMember(list.id, twitter!!.id)
 		
 		var cursor: Long = -1
@@ -96,7 +96,7 @@ object MakeTimelineList {
 				twitter!!.createUserListMember(list.id, id)
 				Thread.sleep(1000)
 			}
-			println("以上 " + ids.iDs.size + " 件")
+			println("以上 ${ids.iDs.size} 件")
 			cursor = ids.nextCursor
 		} while (cursor != 0L)
 		println("Listのメンバー追加を完了しました。")
