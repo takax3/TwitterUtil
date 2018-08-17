@@ -1,6 +1,8 @@
 package net.takax3.twitter.util
 
 import com.google.gson.GsonBuilder
+import net.takax3.twitter.util.module.OAuth
+import net.takax3.twitter.util.module.ReadConsumerKeys
 import twitter4j.IDs
 import twitter4j.Twitter
 import twitter4j.TwitterFactory

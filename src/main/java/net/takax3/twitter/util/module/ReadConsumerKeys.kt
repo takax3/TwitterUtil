@@ -1,4 +1,4 @@
-package net.takax3.twitter.util
+package net.takax3.twitter.util.module
 
 import com.google.gson.GsonBuilder
 import java.io.File

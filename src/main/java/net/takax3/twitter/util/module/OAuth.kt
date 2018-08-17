@@ -1,4 +1,4 @@
-package net.takax3.twitter.util
+package net.takax3.twitter.util.module
 
 import twitter4j.TwitterException
 import twitter4j.TwitterFactory
