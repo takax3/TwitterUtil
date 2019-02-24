@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca5e9ca-9441-48c8-9832-ae222bdc417d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TwitterUtil.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/MakeTimelineList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/MakeTimelineList.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/MakeTimelineList.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
+            <state relative-caret-position="1445">
               <caret line="97" column="53" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="850">
+              <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -69,9 +64,9 @@
         <option value="$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/OAuth.kt" />
         <option value="$PROJECT_DIR$/config/MakeTimeLineListConsumerKey.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/RemoteWakeUp.kt" />
         <option value="$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/MakeTimelineList.kt" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/RemoteWakeUp.kt" />
       </list>
     </option>
   </component>
@@ -117,6 +112,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TwitterUtil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TwitterUtil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TwitterUtil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TwitterUtil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TwitterUtil" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +259,7 @@
       <workItem from="1549887907441" duration="20000" />
       <workItem from="1550480131570" duration="380000" />
       <workItem from="1550883864424" duration="32000" />
-      <workItem from="1550988516538" duration="206000" />
+      <workItem from="1550988516538" duration="460000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534300269386</created>
@@ -277,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534469424033</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kotlinのバージョンの変更、List作成処理の待機時間の微調整(APIの返事を待たずに先に進ませる)">
+      <created>1550988972502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550988972503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37552000" />
+    <option name="totallyTimeSpent" value="37806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -292,16 +311,16 @@
       <window_info id="UI デザイナー" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="デザイナー" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22547974" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22547974" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="7" />
       <window_info id="UI Designer" order="8" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32939914" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -325,12 +344,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="moved RemoteWakeUp" />
     <MESSAGE value="organize" />
     <MESSAGE value="Move" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move" />
+    <MESSAGE value="Kotlinのバージョンの変更、List作成処理の待機時間の微調整(APIの返事を待たずに先に進ませる)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlinのバージョンの変更、List作成処理の待機時間の微調整(APIの返事を待たずに先に進ませる)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -470,9 +500,16 @@
         <state relative-caret-position="-1530" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/module/OAuth.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="68">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
@@ -486,22 +523,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/RemoteWakeUp.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="271" column="48" lean-forward="true" selection-start-line="271" selection-start-column="48" selection-end-line="271" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/takax3/twitter/util/MakeTimelineList.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="1445">
           <caret line="97" column="53" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
