@@ -12,6 +12,7 @@ import java.io.FileReader
 import java.io.FileWriter
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.concurrent.thread
 
 
 object MakeTimelineList {
@@ -93,10 +94,12 @@ object MakeTimelineList {
 		do {
 			ids = twitter!!.getFriendsIDs(cursor)
 			for (id in ids.iDs.asList().asReversed()) {
-				val user = twitter!!.showUser(id)
-				println("@"+user.screenName + " ( " + user.name + " )")
-				twitter!!.createUserListMember(list.id, id)
-				Thread.sleep(1000)
+				thread {
+					val user = twitter!!.showUser(id)
+					println("@${user.screenName} ( ${user.name} )")
+					twitter!!.createUserListMember(list.id, id)
+				}
+				Thread.sleep(1001)
 			}
 			println("以上 ${ids.iDs.size} 件")
 			cursor = ids.nextCursor
